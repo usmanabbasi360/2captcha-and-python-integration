@@ -1,11 +1,11 @@
-# sensitive
+
 # ---import necessary libraries
 
-from config import API_KEY
 from twocaptcha import TwoCaptcha
 import requests, lxml
 from bs4 import BeautifulSoup
 
+API_KEY = "123456789876543321"
 solver = TwoCaptcha(API_KEY)
 data_sitekey="6LfGNEoeAAAAALUsU1OWRJnNsF1xUvoai0tV090n" # from the captcha page 
 
